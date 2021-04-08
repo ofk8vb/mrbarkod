@@ -27,7 +27,7 @@ class App extends React.PureComponent {
   // makes an axiost request for all the elements in a given array
   axiosFetcher = async (fetchArray)=>{
 
-    axios.defaults.baseURL = 'http://185.51.37.235/api/StokBilgi/';
+    axios.defaults.baseURL = 'https://intense-everglades-65236.herokuapp.com/http://185.51.37.235/api/StokBilgi/';
     let products = []
     if (fetchArray){
        for(let i=0;i<fetchArray.length;i++){

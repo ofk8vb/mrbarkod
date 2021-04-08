@@ -1,5 +1,5 @@
 {
-  "homepage": "http://yuribenjamin.github.io/my-app",
+  "homepage": "http://ofk8vb.github.io/mrbarkod",
   "name": "barkod-urun-fetcher",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +15,8 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
