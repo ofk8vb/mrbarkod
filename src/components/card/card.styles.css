@@ -1,0 +1,47 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #95dada;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    align-items: left;
+    -webkit-transition: transform 0.25s ease-out;
+    -moz-transition: transform 0.25s ease-out;
+    -ms-transition: transform 0.25s ease-out;
+    -o-transition: transform 0.25s ease-out;
+    min-height: 40vh;
+}
+  
+  .card-container:hover {
+    transform: scale(1.05);
+  }
+
+li{
+    display:flex;
+    list-style-type:none;
+    text-align: left;
+    font-size:  24px;
+    font-weight: 600;
+    color: rgb(211, 123, 88);
+}
+
+span{
+    margin-right:10px;
+    color:black;
+}
+
+.stok-no{
+    color:rgb(255, 53, 53);
+    margin-bottom:-20px;
+}
+
+.barkod-no{
+    color:rgb(255, 53, 53)
+}
+
